@@ -4,7 +4,7 @@ from django.views import View
 from django.http import JsonResponse, HttpRequest
 from django.shortcuts import get_object_or_404
 
-from ..models import Category, Product, ProductImage
+from ..models import Category
 
 
 class CategoryListView(View):
